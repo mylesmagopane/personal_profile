@@ -17,7 +17,7 @@ class _PersonDetailsAnimatorState extends State<PersonDetailsAnimator>
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(microseconds: 1780),
+      duration: const Duration(seconds: 3),
       vsync: this,
     );
 
